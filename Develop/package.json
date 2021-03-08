@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "An employee mangement system",
+  "main": "index.js",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCyberAI/employeemanager.git"
+  },
+  "keywords": [
+    "ems"
+  ],
+  "author": "Jalyn Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCyberAI/employeemanager/issues"
+  },
+  "homepage": "https://github.com/JCyberAI/employeemanager#readme"
+}

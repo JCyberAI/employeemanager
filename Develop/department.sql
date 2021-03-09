@@ -1,12 +1,13 @@
 DROP DATABASE IF EXISTS ems_db;
 
-CREATE DATABASE ems_db;
+CREATE DATABASE IF NOT EXISTS ems_db;
 
 USE ems_db;
 
 CREATE TABLE departments (
 
+    id INT AUTO_INCREMENT NOT NULL,
     name VARCHAR(30) NOT NULL,
+    PRIMARY KEY (id)
 
-
-)
+);

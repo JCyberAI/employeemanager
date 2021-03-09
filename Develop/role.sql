@@ -13,5 +13,4 @@ CREATE TABLE roles (
     PRIMARY KEY (id),
     FOREIGN KEY (department_id)
 
-
-)
+);

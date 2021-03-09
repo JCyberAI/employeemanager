@@ -10,6 +10,8 @@ CREATE TABLE employees (
     name VARCHAR(30) NOT NULL,
     manager_id INT,
     role_id INT NOT NULL,
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    FOREIGN KEY (role_id),
+    FOREIGN KEY (manager_id)
 
 );

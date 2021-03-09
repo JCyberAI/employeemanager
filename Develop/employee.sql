@@ -1,6 +1,6 @@
 DROP DATABASE IF EXISTS ems_db;
 
-CREATE DATABASE ems_db;
+CREATE DATABASE IF NOT EXISTS ems_db;
 
 USE ems_db;
 

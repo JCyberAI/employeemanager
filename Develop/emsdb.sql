@@ -20,7 +20,6 @@ CREATE TABLE employees (
     role_id INT NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (role_id),
-    FOREIGN KEY (manager_id)
 
 );
 
@@ -31,6 +30,6 @@ CREATE TABLE roles (
     salary DECIMAL NOT NULL,
     department_id INT,
     PRIMARY KEY (id),
-    FOREIGN KEY (department_id)
+    FOREIGN KEY (department_id),
 
 );

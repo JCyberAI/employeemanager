@@ -6,8 +6,8 @@ const dbmain = process.env.DB_HOST;
 const dbsub = process.env.DB_USER;
 const dbpass = process.env.DB_PASS;
 const db = mysql.createConnection({
-    host,
-    user,
-    password,
-    database
+    dbmain,
+    dbsub,
+    dbpass,
+    db
 })

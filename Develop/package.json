@@ -1,5 +1,5 @@
 {
-  "name": "package.json",
+  "name": "Employee Mangagement System",
   "version": "1.0.0",
   "description": "An employee mangement system",
   "main": "index.js",

@@ -10,23 +10,7 @@ importer.onProgress(progress=>{
   console.log(`${percent}% Completed`);
 });
 
-importer.import('department.sql').then(() => {
+importer.import('emsdb.sql').then(() => {
   let files_imported = importer.getImported(); 
   console.log(`${files_imported.length} SQL file(s) imported.`);
-}).catch(err => {
-  console.log(err);
-});
-
-importer.import('employee.sql').then(() => {
-  let files_imported = importer.getImported(); 
-  console.log(`${files_imported.length} SQL file(s) imported.`);
-}).catch(err => {
-  console.log(err);
-});
-
-importer.import('role.sql').then(() => {
-  let files_imported = importer.getImported(); 
-  console.log(`${files_imported.length} SQL file(s) imported.`);
-}).catch(err => {
-  console.log(err);
 });

@@ -51,17 +51,3 @@ const prompt = () => {
         if (err) throw err;
       })
   }
-// const initQuestions = require('./lib/questions');
-// const inquirer = require('inquirer');
-// const table = require('console.table');
-// const mysql = require('mysql');
-// const host = process.env.DB_HOST;
-// const user = process.env.DB_USER;
-// const password = process.env.DB_PASS;
-// const database = process.env.DB_NAME;
-// const db = mysql.createConnection({
-//   host,
-//   user,
-//   password,
-//   database
-// })

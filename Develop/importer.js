@@ -1,4 +1,4 @@
-const dotenv = require('dotenv').config();
+const env = require('dotenv').config();
 const Importer = require('mysql-import');
 const host = process.env.DB_HOST;
 const user = process.env.DB_USER;

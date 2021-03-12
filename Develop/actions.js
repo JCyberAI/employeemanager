@@ -4,7 +4,7 @@ const actions = [
       loop: false,
       name: 'choices',
       message: `What would you like to do?`,
-      choices: ['View Departments', 'View Roles', 'View Employees', 'Add Department', 'Add Roles', 'Add Employee', 'Quit']
+      choices: ['View Departments', 'View Roles', 'View Employees', 'Add Department', 'Add Roles', 'Update Employee Roles', 'Quit']
     },
     {
       type: 'confirm',

@@ -97,3 +97,15 @@ const viewRoles = () => {
   )
   runPrompt();
 }
+
+const addEmployee = async () => {
+  let roleQuery;
+  let managerQuery;
+  try {
+    roleQuery = await querySync(db, "SELECT id, title FROM role ORDER BY title", []);
+    managerQuery = await querySync(db, "SELECT id, CONCAT(first_name, ' ', last_name) as name FROM employee ORDER BY name", []);
+  } catch (err) {
+    console.log(err);
+    throw err;
+  }
+}

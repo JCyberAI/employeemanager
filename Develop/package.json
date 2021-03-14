@@ -4,7 +4,7 @@
   "description": "An employee mangement system",
   "main": "index.js",
   "scripts": {
-    "createDB": "node importer",
+    "importer": "node importer",
     "start": "node app"
   },
   "dependencies": {

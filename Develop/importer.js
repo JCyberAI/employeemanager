@@ -10,7 +10,7 @@ importer.onProgress(progress=>{
   console.log(`${percent}% Completed`);
 });
 
-importer.import('./sample-data/sample-data.sql').then(() => {
+importer.import('filldata.sql').then(() => {
   let files_imported = importer.getImported(); 
   console.log(`${files_imported.length} SQL file(s) imported.`);
 }).catch(err => {

@@ -1,4 +1,4 @@
-const env = require("env").config();
+// const env = require("env").config();
 const actions = require("./actions");
 const inquirer = require("inquirer");
 const mysql = require("sql");

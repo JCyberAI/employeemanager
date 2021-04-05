@@ -11,7 +11,7 @@
     "dotenv": "^8.2.0",
     "env": "0.0.2",
     "inquirer": "^7.3.3",
-    "mysql": "^8.0.23",
+    "sql": "^8.0.23",
     "mysql-import": "5.0.21"
   },
   "repository": {

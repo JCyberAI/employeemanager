@@ -1,20 +1,16 @@
 {
-  "name": "package.json",
+  "name": "employee-management-system",
   "version": "1.0.0",
   "description": "An employee mangement system",
   "main": "app.js",
   "scripts": {
     "importer": "node importer",
-    "start": "npm start"
+    "start": "node app"
   },
   "dependencies": {
     "inquirer": "^7.3.3",
     "dotenv": "^8.2.0",
     "mysql": "^8.0.23"
-  },
-  "devDependencies": {
-    "mysql-import": "^8.0.23",
-    "start": "npm start"
   },
   "repository": {
     "type": "git",

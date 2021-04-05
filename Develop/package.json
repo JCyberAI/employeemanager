@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "mysql-import": "^8.0.23",
-    "start": "node app"
+    "start": "npm start"
   },
   "repository": {
     "type": "git",

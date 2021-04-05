@@ -1,4 +1,5 @@
 var mysql = require("mysql");
+var sqlimporter = require("sql-importer");
 var inquirer = require("inquirer");
 
 // create the connection information for the sql database

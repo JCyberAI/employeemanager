@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "importer": "node importer",
-    "start": "node app"
+    "start": "npm start"
   },
   "dependencies": {
     "inquirer": "^7.3.3",
